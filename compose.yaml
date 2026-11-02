@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8120:8000"
+    environment:
+      # Roughly the city of Yokohama: min_lon,min_lat,max_lon,max_lat
+      BBOX: "139.47,35.31,139.72,35.60"
+    restart: unless-stopped

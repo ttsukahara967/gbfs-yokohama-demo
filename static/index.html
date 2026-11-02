@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>横浜シェアサイクルマップ</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <aside id="panel">
+    <h1>横浜シェアサイクルマップ</h1>
+    <p class="sub">GBFS リアルタイム（60秒ごとに更新）</p>
+
+    <section>
+      <h2>事業者</h2>
+      <div id="operators"></div>
+    </section>
+
+    <section>
+      <h2>状態</h2>
+      <div id="statuses"></div>
+    </section>
+
+    <section>
+      <h2>近くのポートを探す</h2>
+      <div class="seg" role="radiogroup">
+        <label><input type="radio" name="want" value="rent" checked> 借りる</label>
+        <label><input type="radio" name="want" value="return"> 返す</label>
+      </div>
+      <p class="hint">地図をクリックすると、近い順に3件表示します。</p>
+      <ol id="nearest"></ol>
+    </section>
+
+    <p id="updated" class="hint"></p>
+  </aside>
+  <main id="map"></main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

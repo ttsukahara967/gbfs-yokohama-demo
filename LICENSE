@@ -1,14 +1,3 @@
-The MIT License below applies to the files written for this project: the source code
-under app/, static/ and tests/, the Docker and config files, the documentation, and
-the screenshot's application UI.
-
-It does NOT apply to third-party content:
-- GBFS station data (fetched at runtime; only appears in docs/screenshot.png) from docomo bike
-  share and OpenStreet Corp. (HELLO CYCLING) via the Public Transportation Open Data
-  Center, licensed under CC BY 4.0.
-- Map tiles and map data shown in docs/screenshot.png, © OpenStreetMap contributors.
-- Leaflet, loaded from a CDN, under its own BSD-2-Clause license.
-
 MIT License
 
 Copyright (c) 2026 ttsukahara

@@ -52,7 +52,7 @@ browser (Leaflet) ──▶ FastAPI ──▶ ODPT GBFS feeds
 - Data: docomo bike share, OpenStreet Corp. (HELLO CYCLING), via the Public Transportation Open Data Center (ODPT), CC BY 4.0. The UI shows this credit. If you store or redistribute the data (e.g. status history dumps), keep the credit and note that it was modified.
 - Map tiles © OpenStreetMap contributors. Heavy use should switch to another tile provider per the [OSM tile usage policy](https://operations.osmfoundation.org/policies/tiles/).
 - "docomo bike share" and "HELLO CYCLING" are trademarks of their respective owners. This project is an independent demo and is not affiliated with or endorsed by them or ODPT. Station data may be delayed or inaccurate; don't contact the operators about what this app shows.
-- The code is released under the MIT License; see [LICENSE](LICENSE) for what it covers and what it doesn't.
+- The code is released under the [MIT License](LICENSE). It covers the files written for this project (source code, Docker/config files, docs, and the app UI in the screenshot), not the third-party content above: the GBFS station data (only stored in `docs/screenshot.png`), the OpenStreetMap tiles and map data, and Leaflet (loaded from a CDN, BSD-2-Clause).
 
 ## Ideas for next steps
 
